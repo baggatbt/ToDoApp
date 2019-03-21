@@ -4,12 +4,15 @@ let ul = document.querySelector("ul");
 let li = document.querySelector("li");
 
 //Creates new list item
+
 button.addEventListener("click", function() {
+	console.log(userInput.innerHTML);
 	let li = document.createElement("li");
 	li.appendChild(document.createTextNode(userInput.value));
 	ul.appendChild(li);
-	userInput.value ='';
+	userInput.value =''; 
 })
+
 
 //Removes a list item on click
 ul.addEventListener("click",function() {
