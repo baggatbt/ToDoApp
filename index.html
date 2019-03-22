@@ -3,14 +3,18 @@
 <head>
 	<title>To Do</title>
 	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
 </head>
 <body>
-
+<div class="jumbotron">
+	<h1 class="display-4 text-center">What do you need to get done?</h1>
+</div>
 <div class="flex-container">
-		<input id='userInput' type='text'  placeholder='What do you need to get done?' >
+		<input id='userInput' type='text'  placeholder='Enter a task' >
 </div>
 <div class="flexbox-container">
-		<button id='enter'>Enter</button>
+		<button id='enter' class="btn-lg">Enter</button>
 </div>
 <div class="ul">
 	<ul>
@@ -19,5 +23,6 @@
 </div>
 
 <script src='scripts.js'> </script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>
