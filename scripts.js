@@ -6,11 +6,12 @@ let li = document.querySelector("li");
 //Creates new list item
 
 button.addEventListener("click", function() {
-	console.log(userInput.innerHTML);
+	if (userInput.value != ""){
 	let li = document.createElement("li");
 	li.appendChild(document.createTextNode(userInput.value));
 	ul.appendChild(li);
 	userInput.value =''; 
+}
 })
 
 
