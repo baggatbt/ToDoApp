@@ -1,16 +1,23 @@
 li {
   font-size: 40px;
-  color: white;
+  font-family: 'Indie Flower', cursive;
+  text-align: justify;
+  word-wrap: break-word;
+  color: black;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   list-style: none;
   display: inline-block;
   margin: 10px;
-  background: #465451;
+  background-image: url("https://i.pinimg.com/originals/25/08/16/250816e40d33f791160e9a148c59a358.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 200px;
+  min-height: 200px;
+  max-width: 200px;
+  max-height: 200px;
   text-align: center;
   padding-top: 20px;
-  border: 1px solid black;
-
 }
 
 
@@ -22,6 +29,7 @@ li:hover {
 #userInput {
 	width: 200px;
 	height: 50px;
+  border: solid black 2px;
 }
 
 .flex-container {
@@ -41,11 +49,12 @@ li:hover {
 }
 
 body {
-	background-color: #d5e0de !important;
+	background-image: url("https://cdn.shopify.com/s/files/1/0170/2948/products/Coral-3n1-72dpi_1aec523e-b2e7-4ef2-a083-74297dcd314e_1024x1024.jpg?v=1402116923");
 }
 
 .jumbotron {
-	background-color: #d5e0de !important;
+	background-color: black !important;
 	font-family: 'Lilita One', cursive;
+  color: white;
 	border-bottom: 5px solid black;
 }
