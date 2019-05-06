@@ -10,16 +10,21 @@
 <body>
 <div class="jumbotron">
 	<h1 class="display-4 text-center">What do you need to get done?</h1>
-	<input id='userInput' type='text'  placeholder='Enter a task' maxlength="27">
-	<button id='enter' class="btn-lg">Enter</button>
-	
+	<div class="flex-container">
+		<input id='userInput' type='text'  placeholder='Enter a task' maxlength="27" >
 </div>
+<div class="flexbox-container">
+		<button id='enter' class="btn-lg">Enter</button>
+</div>
+</div>
+<div id="buttonInput" ondrop="drop_handler(event);" ondragover="dragover_handler(event);">
 
-<div class="stickyNotes">
+
 	<ul>
 		
-		
 	</ul>
+
+
 </div>
 <script src='scripts.js'> </script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
